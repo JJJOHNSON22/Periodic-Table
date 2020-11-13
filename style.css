@@ -1,6 +1,157 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     font-family: sans-serif;
+}
+
+body {
+    width: 1165px;
+    margin: 10px;
+    overflow: scroll;
+}
+
+p {
+    color: red;
+    width: 55px;
+    text-align: center;
+    display: inline-block;
+}
+
+.bluCol {
+    background-color: rgb(104, 155, 255);
+}
+
+.yelCol {
+    background-color: rgb(254, 203, 0);
+}
+
+.redCol {
+    background-color: rgb(253, 154, 152);
+}
+
+.greCol {
+    background-color: rgb(31, 202, 33);
+}
+
+#top_line {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#top_line p:nth-child(4) {
+    margin-left: 20px;
+}
+
+#line1,
+#line2,
+#line3,
+#line4,
+#line5,
+#line6,
+#line7,
+#lanthanoids,
+#actinoids {
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#line1 p,
+#line2 p,
+#line3 p,
+#line4 p,
+#line5 p,
+#line6 p,
+#line7 p,
+#lanthanoids p,
+#actinoids p {
+    display: inline-block;
+    padding: 15px 0 0 0px;
+    width: 56px;
+}
+
+#line1 ul,
+#line2 ul,
+#line3 ul,
+#line4 ul,
+#line5 ul,
+#line6 ul,
+#line7 ul,
+#lanthanoids ul,
+#actinoids ul {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid black;
+    margin: 1px 1px;
+    width: 56px;
+}
+
+#line1 li,
+#line2 li,
+#line3 li,
+#line4 li,
+#line5 li,
+#line6 li,
+#line7 li,
+#lanthanoids li,
+#actinoids li {
+    font-size: x-small;
+    text-align: center;
+    padding: 1px;
+}
+
+#line1 li:nth-child(2),
+#line2 li:nth-child(2),
+#line3 li:nth-child(2),
+#line4 li:nth-child(2),
+#line5 li:nth-child(2),
+#line6 li:nth-child(2),
+#line7 li:nth-child(2),
+#lanthanoids li:nth-child(2),
+#actinoids li:nth-child(2) {
+    font-size: larger;
+    padding: 2px 0 2px 0;
+    font-weight: bolder;
+}
+
+#line1 ul:nth-child(3) {
+    margin-left: 990px;
+}
+
+#line2 ul:nth-child(4),
+#line3 ul:nth-child(4) {
+    margin-left: 630px;
+}
+
+#line4 ul:nth-child(4),
+#line5 ul:nth-child(4),
+#line6 ul:nth-child(4),
+#line7 ul:nth-child(4) {
+    margin-left: 34px;
+}
+
+#lanthanoids ul:nth-child(2),
+#actinoids ul:nth-child(2) {
+    margin-left: 153px;
+}
+
+#lanthanoids {
+    margin-top: 30px;
+}
+
+#lanthanoids p,
+#actinoids p {
+    margin-left: 50px;
+}
+
+#lanthanoids #star {
+    width: 6px;
+    margin-left: 92px;
+}
+
+#actinoids #star {
+    width: 10px;
+    margin-left: 88px;
 }
